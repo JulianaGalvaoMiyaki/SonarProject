@@ -18,7 +18,8 @@ def publicar_no_pages(mensagem_release):
         repo = g.get_repo(repo_name)
 
         try:
-            contents = repo.get_contents(file_path)
+
+            contents = repo.get_contents(file_path, ref="main")
             conteudo_atual = contents.decoded_content.decode("utf-8")
             sha_arquivo = contents.sha
             print(f"📂 Arquivo {file_path} encontrado. Atualizando...")
