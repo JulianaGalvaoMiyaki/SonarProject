@@ -1,0 +1,16 @@
+title: Desafio Security
+description: Estudos e testes de segurança | Ju Galvão Miyaki
+url: "https://jugalvaomiyaki.github.io"
+baseurl: "/desafio-security"
+
+theme: minima
+minima:
+  skin: dark
+
+author:
+  name: Ju Galvão Miyaki
+
+show_excerpts: false
+
+plugins:
+  - jekyll-feed

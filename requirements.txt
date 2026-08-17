@@ -1,2 +1,5 @@
 Flask==2.3.3
 pytest==9.0.2
+pytest-flask==1.2.0
+requests==2.31.0
+flask-restx==1.0.0
